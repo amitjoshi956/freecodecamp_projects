@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.border-online {
+  border: 4px solid #4caf50;
+}
+
+.border-offline {
+  border: 4px solid #f44336;
+}
+
+.title {
+  font-weight: bold;
+  color: #37474f;
+}
+
+.game {
+  color: #455a64 !important;
+}
+
+.status-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #6a1b9a !important;
+}
+
+.secondary-content{
+  height: 50px;
+  width: 60px;
+}
