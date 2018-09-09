@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WeatherApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script src="./js/main.js"></script>
+</head>
+<body>
+<nav class="nav-wrapper grey darken-4">
+    <a href="#" class="brand-logo center">WeatherApp</a>
+    </nav>
+    
+    <div class="container">
+    <div class="card-panel">
+        <div class="container center" id="main">
+        <i class="material-icons large white-text" id="main-weather-icon">cloud</i>
+        <h1 id="main-temp">
+            <span id="main-temp-value"></span>
+            <a href="#" class="white-text text-border" id="main-temp-unit">C</a>
+        </h1>
+        <h5 class="center white-text" id="main-city-weather"></h5>
+        </div>
+        
+        <div class="row" id="others">
+        <div class="col s2 m3 l2 offset-m1 offset-l1">
+            <i class="material-icons small white-text">toys</i>
+            <h6 class="black-text" id="others-wind">Wind</h6>
+        </div>
+        <div class="col s2 m3 l2 offset-s2 offset-m1 offset-l2">
+            <i class="material-icons small white-text">vertical_align_center</i>
+            <h6 class="black-text" id="others-pressure">Pressure</h6>
+        </div>
+        <div class="col s2 m3 l2 offset-s2 offset-m1 offset-l2">
+            <i class="material-icons small white-text">opacity</i>
+            <h6 class="black-text" id="others-humidity">Humidity</h6>
+        </div>
+        </div>
+        
+        <div class="row">
+        <form class="col s12" id="search">
+            <div class="input-field">
+            <i class="material-icons prefix black-text">location_on</i>
+            <input id="search-city" type="text" class="validate white-text" placeholder="Looking for a particular city?">
+            <label for="search-city" class="black-text" id="city-input">City</label>
+            </div>
+        </form>
+        </div>
+    
+        <div class="row">
+        <div class="col s2 offset-s5">
+            <button class="waves-effect waves-light btn black center" id="fire-search">Go!</button>
+        </div>
+        </div>
+        
+    </div>
+    </div>
+    
+    <footer class="grey darken-4">
+     <h6 class="white-text center-align">From AJ, with <i class="material-icons tiny">favorite</i></h6>
+    <br>
+    </footer>
+</body>
+</html>

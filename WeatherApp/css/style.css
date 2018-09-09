@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+html {
+  font-family: 'Amaranth', sans-serif;
+}
+
+#main-temp{
+  margin: 0;
+}
+
+#others{
+  margin-top: 50px;
+}
+
+/* A new class that adds a 1px border to the text it is applied to. */
+.text-border{
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
