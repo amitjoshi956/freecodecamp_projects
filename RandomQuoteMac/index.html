@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Random Quote Mac</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div class="container" id="container">
+      <div id="random-quote-mac">
+        <h1 class="text-responsive text-center">Random Quote Mac</h1>
+      </div>
+      
+      <div class="container quote-container">
+        <div class="text-center quote-text">
+          <h3 id="quote"></h3>
+          <h5 id="author"></h5>
+        </div>
+        
+        <div class="button-container">
+          <div class="btn-group">
+            <a href="" class="btn btn-info" id="twitter" target="blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <button class="btn btn-primary" id="copy" data-clipboard-target="#quote" data-clipboard-action="copy">
+              <i class="fa fa-clipboard"></i>
+            </button>
+          </div>
+          
+          <button class="btn btn-info" id="new-quote">
+            <i class="fa fa-magic"></i> New
+          </button>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <h5 class="text-center" style="color:white;">From AJ, with <i class="fa fa-heart"></i></h5>        
+      </div>
+      
+    </div>
+  </body>
+</html>

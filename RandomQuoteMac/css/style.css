@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(#b3ffb3, #030);
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  #random-quote-mac{
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    max-width: 153px;
+    width: auto;
+    height: auto;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    z-index: 5;
+  }
+  
+  .container{
+    margin-bottom: 120px;
+  }
+  
+  .quote-container{
+    padding: 40px;
+    margin-top: 5%;
+    max-width: 55%;
+    height: auto;
+    background-color: white;
+    box-shadow: 1px 3px 5px #000;
+    z-index: 5;
+  }
+  
+  #quote{
+    font-size: 25px;
+  }
+  
+  #author{
+    margin-right: 10%;
+    text-align: right;
+    font-size: 16px;
+  }
+  
+  .button-container{
+    margin-top: 10%;
+  }
+  
+  #new-quote{
+    margin-left: 60%;
+  }
+  
+  @media (max-width: 1023px){
+    
+    .quote-container{
+      max-width: 60%;
+      height: 40%;
+      margin-top: 10%;
+      padding: 35px;
+      background-color: white;
+      box-shadow: 1px 3px 5px #000;
+      z-index: 8;
+    }
+    
+    #new-quote{
+      margin-left: 50%;
+    }
+  }
+  
+  @media (max-width: 767px){
+   
+     .quote-container{
+      max-width: 75%;
+      height: 46%;
+      margin-top: 10%;
+      padding: 20px 30px 20px 30px;
+      background-color: white;
+      box-shadow: 1px 3px 5px #000;
+      z-index: 5;
+    }
+  
+    #new-quote{
+      margin-left: 40%;
+    }
+  }
+  
+  @media (max-width: 424px){
+  
+    .quote-container{
+      max-width: 80%;
+      height: 46%;
+      margin-top: 10%;
+      padding: 20px 30px 20px 30px;
+      background-color: white;
+      box-shadow: 1px 3px 5px #000;
+      z-index: 5;
+    }
+  
+    #new-quote{
+      margin-left: 25%;
+    }
+    
+  }
+  
+  .footer{
+    margin-top: -8%;
+  }
